@@ -4,6 +4,7 @@
 - **@jstet** will be responsible for:
     - Finalizing the teamwork contract and implementing suggested changes.
     - Adding 2 markdown features to the README.
+    - add a project description to the README
 - **@nicolarammell** will be responsible for:
     - Contributing to the TEAMWORK.md
     - Contributing to the README, adding 1 more markdown feature. 
@@ -15,6 +16,7 @@
 
 Each team member will work on their assigned task individually. This approach ensures that the work in each teammate's pull request is clearly identified and can be reviewed effectively.
 
+
 ## Timing
 **Deadlines**: We will establish specific deadlines for each milestone and communicate them to the team.
 
@@ -23,11 +25,14 @@ Each team member will work on their assigned task individually. This approach en
 **Debugging and Error Fixing**: We will allocate time after pull request submission to address any issues or bugs identified during the review process. It is crucial to avoid last-minute submissions.
 
 ## Communication
-**Tools**: Slack will serve as our real-time communication channel, while GitHub Issues will be used for tracking and discussing project-related subjects.
+
+**Tools**: Slack will serve as our real-time communication channel, while GitHub will be used for tracking and discussing project-related subjects.
 
 **Slack Usage**: Slack will primarily be utilized for quick queries, updates, and general discussions.
 
-**GitHub Issues Usage**: GitHub Issues will be employed for more in-depth discussions, bug tracking, and task assignments. We commit to responding to GitHub Issues within 12 hours on weekdays.
+**GitHub Usage**: GitHub Pull Requests are the place where we talk about suggested code changes. Following guidelines apply:
+    - Before merging a PR, the responsible person makes sure to read through all comments to make sure this PR is ready to be merged.
+    - The person who created the branch is the only one who can delete the branch.
 
 **Regular Meetings**: ..
 
