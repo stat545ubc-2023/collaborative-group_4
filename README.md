@@ -6,7 +6,7 @@ This is a repository that contains all files and code related to our UBC STAT 54
 ## What are the files?
 The files in this repository consist of a TEAMWORK file, which outlines our team contract for the division of labour that we will follow for this project, and of a troubleshooting files, which contains code that we are collaboratively troubleshooting. 
 
-## How can you reproduce our analyses?
-This code can be run by downloading the troubleshooting-1.Rmd file and running it using R/RStudio. 
+## How can you run our code?
+Our code can be run by downloading the troubleshooting .Rmd files and running them using R/RStudio. 
 
 
