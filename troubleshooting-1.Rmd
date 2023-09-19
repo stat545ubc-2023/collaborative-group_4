@@ -15,7 +15,9 @@ First, let's store the current date as a variable. We can use the function `Sys.
 
 ```{r, error = TRUE}
 ## ERROR 1 ##
-_today_ <- Sys.Date()
+today <- Sys.Date()  # NR removed the underscores so this code chunk now creates an 
+                     # object called "today" that is today's date. 
+today
 ```
 
 You may notice that, although an error might appear in these cells, this Rmd file knits just fine. That's because the `error = TRUE` *chunk option* is included in each chunk, allowing the Rmd file to knit, even when an error is encountered.
