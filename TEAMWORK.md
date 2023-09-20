@@ -2,9 +2,8 @@
 
 ## Division of Labour
 - **@jstet** will be responsible for:
-    - Finalizing the teamwork contract and implementing suggested changes.
-    - Adding 2 markdown features to the README.
-    - add a project description to the README
+    - Finalizing the teamwork contract and implementing suggested changes. (done)
+    - Adding 2 markdown features to the README. (done)
 - **@nicolarammell** will be responsible for:
     - Contributing to the TEAMWORK.md (completed). 
     - Contributing to the README, adding 2 more markdown features (completed). 
