@@ -6,12 +6,12 @@
     - Adding 2 markdown features to the README.
     - add a project description to the README
 - **@nicolarammell** will be responsible for:
+    - Contributing to the TEAMWORK.md (completed). 
+    - Contributing to the README, adding 2 more markdown features (completed). 
+    - Adding the troubleshooting-1.Rmd document to the repo, and fixing 1 of 3 errors (completed). 
+- Other things to be completed by group members:
     - Contributing to the TEAMWORK.md
-    - Contributing to the README, adding 1 more markdown feature. 
-    - Adding the troubleshooting-1.Rmd document to the repo, and fixing 1 of 3 errors.
-- Other things that can be assigned to group members:
-    - Contributing to the TEAMWORK.md
-    - Contributing to the README and adding the last 2 markdown features. 
+    - Contributing to the README and adding the last markdown features. 
     - Fixing the other 2 errors in the troubleshooting-1.Rmd document.
 
 Each team member will work on their assigned task individually. This approach ensures that the work in each teammate's pull request is clearly identified and can be reviewed effectively.
