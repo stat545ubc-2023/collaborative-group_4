@@ -7,6 +7,17 @@ This is a repository that contains all files and code related to our **UBC STAT 
 The files in this repository consist of a TEAMWORK file, which outlines our team contract for the division of labour that we will follow for this project, and of troubleshooting files, which contains code that we are collaboratively troubleshooting. The final debugged version of the troubleshooting exercise can also be found as a markdown file in our repository.
 
 ## How can you run our code?
-Our code can be run by downloading the troubleshooting.Rmd file and running it using R/RStudio. 
+
+Our code can be run by following these instructions:
+1. Clone the repo by running:
+```
+git clone git@github.com:stat545ubc-2023/collaborative-group_4.git
+```
+2. Open troubleshooting .Rmd files and run them using R/RStudio. 
 
 
+:sparkles: :sparkles: :sparkles: :sparkles:
+
+
+## Image of a penguin 
+![penguin](https://c8.alamy.com/comp/2G1XX6W/the-fairy-penguin-is-going-down-to-the-water-2G1XX6W.jpg)

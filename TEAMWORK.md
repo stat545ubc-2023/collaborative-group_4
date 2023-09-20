@@ -1,6 +1,9 @@
 # Teamwork Contract
 
 ## Division of Labour
+
+Each team member will work on their assigned tasks individually. This approach ensures that the work in each teammate's pull request is clearly identified and can be reviewed effectively.
+
 **@jstet** will be responsible for:
 - [x] Contributing to the TEAMWORK.md and implementing suggested changes.
 - [x] Adding 2 markdown features to the README.md.
@@ -21,9 +24,6 @@
 - [x] Finalizing the README.md 
 - [X] Adding remaining markdown features. 
 
-Each team member will work on their assigned tasks individually. This approach ensures that the work in each teammate's pull request is clearly identified and can be reviewed effectively.
-
-
 ## Timing
 **Deadlines**: We will establish specific deadlines for each milestone and communicate them to the team using the appropriate communication platforms listed below.
 
@@ -41,6 +41,5 @@ Each team member will work on their assigned tasks individually. This approach e
     - The person who created the branch is the only one who can delete the branch.
 
 **Regular Meetings**: As of Milestone 1, no regular meetings have been scheduled as tasks were virtually assigned, suggested deadlines were established and tasks were completely individually. This is may change given the nature of future components of the project. 
-
 
 This teamwork contract is a living document that can be revised or updated as needed throughout the project. It is vital for all team members to adhere to these guidelines to ensure effective collaboration and the successful completion of the milestone.
