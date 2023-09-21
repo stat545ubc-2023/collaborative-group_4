@@ -18,6 +18,7 @@ Each team member will work on their assigned tasks individually. This approach e
 **@linnan-zhou** will be responsible for:
 - [x] Resolving 2 of 3 errors in the troubleshooting-1.Rmd.
 - [x] Generating the final troubleshooting-1.md.
+- [x] Proofreading the TEAMWORK.md and README.md 
 
 **@renessag** will be responsible for:
 - [x] Finalizing the TEAMWORK.md 
