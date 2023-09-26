@@ -26,7 +26,8 @@ Each team member will work on their assigned tasks individually. This approach e
 - [x] Finalizing the TEAMWORK.md 
 - [x] Finalizing the README.md 
 - [X] Adding remaining markdown features.
-- [X] Submitting Milestone 1 by tagging a release and uploading to Canvas.  
+- [X] Submitting Milestone 1 by tagging a release and uploading to Canvas.
+- [X] Completing Exercise 4 in troubleshooting-2.Rmd.
 
 **@cchuong** will be responsible for: 
 - [X] Adding troubleshooting-2.Rmd to the repo.
