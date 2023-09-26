@@ -28,10 +28,10 @@ Each team member will work on their assigned tasks individually. This approach e
 
 **@cchuong** will be responsible for: 
 - [X] Adding the troubleshooting-2.Rmd to the repo.
-- [X] Resolving the first errors.
+- [X] Resolving the troubleshooting-2.Rmd Exercise 1 errors. 
 
 **@mvhalim**
-- [X] Resolving the next errors in the troubleshooting-2.Rmd.
+- [X] Resolving the troubleshooting-2.Rmd Exercise 2 errors. 
 
 ## Timing
 **Deadlines**: We will establish specific deadlines for each milestone and communicate them to the team using the appropriate communication platforms listed below.
