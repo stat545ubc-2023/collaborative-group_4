@@ -34,7 +34,12 @@ Each team member will work on their assigned tasks individually. This approach e
 - [X] Completing Exercise 1 in troubleshooting-2.Rmd. 
 
 **@mvhalim** will be responsible for:
-- [X] Completing Exercise 2 in troubleshooting-2.Rmd. 
+- [X] Completing Exercise 2 in troubleshooting-2.Rmd.
+
+**Remaining tasks to assign!:** 
+- [ ] Completing Exercise 5-6 in troubleshooting-2.Rmd.
+- [ ] Creating final .md
+- [ ] Submitting Milestone 2 by tagging a release and uploading to Canvas. 
 
 ## Timing
 **Deadlines**: We will establish specific deadlines for each milestone and communicate them to the team using the appropriate communication platforms listed below.
