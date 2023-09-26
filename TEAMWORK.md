@@ -15,7 +15,7 @@ Each team member will work on their assigned tasks individually. This approach e
 - [x] Adding troubleshooting-1.Rmd to the repo.
 - [x] Resolving 1 of 3 errors in troubleshooting-1.Rmd.
 - [x] Completing Exercise 3 in troubleshooting-2.Rmd.
-- [X] Updating the TEAMWORK.md and README.md to reflect the Milestone 2 workflow. 
+- [X] Updating the TEAMWORK.md and README.md to reflect Milestone 2 tasks. 
     
 **@linnan-zhou** will be responsible for:
 - [x] Resolving 2 of 3 errors in the troubleshooting-1.Rmd.
@@ -32,7 +32,7 @@ Each team member will work on their assigned tasks individually. This approach e
 - [X] Adding troubleshooting-2.Rmd to the repo.
 - [X] Completing Exercise 1 in troubleshooting-2.Rmd. 
 
-**@mvhalim**
+**@mvhalim** will be responsible for:
 - [X] Completing Exercise 2 in troubleshooting-2.Rmd. 
 
 ## Timing
