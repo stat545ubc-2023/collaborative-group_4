@@ -12,8 +12,9 @@ Each team member will work on their assigned tasks individually. This approach e
 **@nicolarammell** will be responsible for:
 - [x] Contributing to the TEAMWORK.md. 
 - [x] Contributing to the README.md, adding 2 more markdown features. 
-- [x] Adding troubleshooting-1.Rmd to the repo
-- [x] Resolving 1 of 3 errors in troubleshooting-1.Rmd. 
+- [x] Adding troubleshooting-1.Rmd to the repo.
+- [x] Resolving 1 of 3 errors in troubleshooting-1.Rmd.
+- [X] Updating the TEAMWORK.md and README.md to reflect the Milestone 2 tasks. 
     
 **@linnan-zhou** will be responsible for:
 - [x] Resolving 2 of 3 errors in the troubleshooting-1.Rmd.
@@ -23,7 +24,14 @@ Each team member will work on their assigned tasks individually. This approach e
 **@renessag** will be responsible for:
 - [x] Finalizing the TEAMWORK.md 
 - [x] Finalizing the README.md 
-- [X] Adding remaining markdown features. 
+- [X] Adding remaining markdown features.
+
+**@cchuong** will be responsible for: 
+- [X] Adding the troubleshooting-2.Rmd to the repo.
+- [X] Resolving the first errors.
+
+**@mvhalim**
+- [X] Resolving the next errors in the troubleshooting-2.Rmd.
 
 ## Timing
 **Deadlines**: We will establish specific deadlines for each milestone and communicate them to the team using the appropriate communication platforms listed below.
