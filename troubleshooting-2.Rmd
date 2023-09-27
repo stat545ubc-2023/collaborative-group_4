@@ -98,7 +98,6 @@ As you already know, `mutate()` defines and inserts new variables into a tibble.
 # Used the summarise() function instead of mutate()
 summarise(movieLens,
        average_rating = mean(rating,na.rm = TRUE))
-
 ```
 
 ## Exercise 3: Calculating with `summarise()`-like functions
