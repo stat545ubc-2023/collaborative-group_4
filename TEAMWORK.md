@@ -38,7 +38,7 @@ Each team member will work on their assigned tasks individually. This approach e
 
 **Remaining tasks to assign!:** 
 - [ ] Completing Exercise 5-6 in troubleshooting-2.Rmd.
-- [ ] Creating final .md
+- [ ] Creating final troubleshooting-2.md
 - [ ] Submitting Milestone 2 by tagging a release and uploading to Canvas. 
 
 ## Timing
@@ -57,6 +57,6 @@ Each team member will work on their assigned tasks individually. This approach e
     - Before merging a PR, the responsible person makes sure to read through all comments to ensure this PR is ready to be merged.
     - The person who created the branch is the only one who can delete the branch.
 
-**Regular Meetings**: As of Milestone 1, no regular meetings have been scheduled as tasks were virtually assigned, suggested deadlines were established and tasks were completely individually. This is may change given the nature of future components of the project. 
+**Regular Meetings**: As of Milestone 1, no regular meetings have been scheduled as tasks were virtually assigned, suggested deadlines were established and tasks were completely individually. As of Milestone 2, no regular meetings have been scheduled as tasks were virtually assigned, suggested deadlines were established and tasks were completely individually.
 
 This teamwork contract is a living document that can be revised or updated as needed throughout the project. It is vital for all team members to adhere to these guidelines to ensure effective collaboration and the successful completion of the milestone.
