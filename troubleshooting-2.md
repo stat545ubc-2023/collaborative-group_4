@@ -32,11 +32,11 @@ library(tidyverse)
 ```
 
     ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-    ## ✔ dplyr     1.1.2     ✔ readr     2.1.4
+    ## ✔ dplyr     1.1.3     ✔ readr     2.1.4
     ## ✔ forcats   1.0.0     ✔ stringr   1.5.0
-    ## ✔ ggplot2   3.4.2     ✔ tibble    3.2.1
+    ## ✔ ggplot2   3.4.3     ✔ tibble    3.2.1
     ## ✔ lubridate 1.9.2     ✔ tidyr     1.3.0
-    ## ✔ purrr     1.0.1     
+    ## ✔ purrr     1.0.2     
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
@@ -244,15 +244,22 @@ use *snake_case* instead, and assign our post-rename object back to
 
 ``` r
 ### ERROR HERE ###
+# Changed the "==" sign to "=" sign to rename
 movieLens <- movieLens %>%
-  rename(user_id == userId,
-         movie_id == movieId)
+  rename("user_id" = "userId",
+         "movie_id" = "movieId")
+head(movieLens)
 ```
 
-    ## Error in `rename()`:
-    ## ! Problem while evaluating `user_id == userId`.
-    ## Caused by error:
-    ## ! object 'user_id' not found
+    ## # A tibble: 6 × 7
+    ##   movie_id title                            year genres user_id rating timestamp
+    ##      <int> <chr>                           <int> <fct>    <int>  <dbl>     <int>
+    ## 1       31 Dangerous Minds                  1995 Drama        1    2.5    1.26e9
+    ## 2     1029 Dumbo                            1941 Anima…       1    3      1.26e9
+    ## 3     1061 Sleepers                         1996 Thril…       1    3      1.26e9
+    ## 4     1129 Escape from New York             1981 Actio…       1    2      1.26e9
+    ## 5     1172 Cinema Paradiso (Nuovo cinema …  1989 Drama        1    4      1.26e9
+    ## 6     1263 Deer Hunter, The                 1978 Drama…       1    2      1.26e9
 
 As you already know, `mutate()` defines and inserts new variables into a
 tibble. There is *another mystery function similar to `mutate()`* that
@@ -263,24 +270,15 @@ I forgot what that mystery function is. Can you remember?
 
 ``` r
 ### ERROR HERE ### 
-mutate(movieLens,
-       average_rating = mean(rating))
+# Used the summarise() function instead of mutate()
+summarise(movieLens,
+       average_rating = mean(rating,na.rm = TRUE))
 ```
 
-    ## # A tibble: 100,004 × 8
-    ##    movieId title              year genres userId rating timestamp average_rating
-    ##      <int> <chr>             <int> <fct>   <int>  <dbl>     <int>          <dbl>
-    ##  1      31 Dangerous Minds    1995 Drama       1    2.5    1.26e9           3.54
-    ##  2    1029 Dumbo              1941 Anima…      1    3      1.26e9           3.54
-    ##  3    1061 Sleepers           1996 Thril…      1    3      1.26e9           3.54
-    ##  4    1129 Escape from New …  1981 Actio…      1    2      1.26e9           3.54
-    ##  5    1172 Cinema Paradiso …  1989 Drama       1    4      1.26e9           3.54
-    ##  6    1263 Deer Hunter, The   1978 Drama…      1    2      1.26e9           3.54
-    ##  7    1287 Ben-Hur            1959 Actio…      1    2      1.26e9           3.54
-    ##  8    1293 Gandhi             1982 Drama       1    2      1.26e9           3.54
-    ##  9    1339 Dracula (Bram St…  1992 Fanta…      1    3.5    1.26e9           3.54
-    ## 10    1343 Cape Fear          1991 Thril…      1    2      1.26e9           3.54
-    ## # ℹ 99,994 more rows
+    ## # A tibble: 1 × 1
+    ##   average_rating
+    ##            <dbl>
+    ## 1           3.54
 
 ## Exercise 3: Calculating with `summarise()`-like functions
 
@@ -386,18 +384,18 @@ movieLens %>%
 ```
 
     ## # A tibble: 100,004 × 9
-    ##    movieId title       year genres userId rating timestamp min_rating max_rating
-    ##      <int> <chr>      <int> <fct>   <int>  <dbl>     <int>      <dbl>      <dbl>
-    ##  1      31 Dangerous…  1995 Drama       1    2.5    1.26e9        0.5          5
-    ##  2    1029 Dumbo       1941 Anima…      1    3      1.26e9        0.5          5
-    ##  3    1061 Sleepers    1996 Thril…      1    3      1.26e9        0.5          5
-    ##  4    1129 Escape fr…  1981 Actio…      1    2      1.26e9        0.5          5
-    ##  5    1172 Cinema Pa…  1989 Drama       1    4      1.26e9        0.5          5
-    ##  6    1263 Deer Hunt…  1978 Drama…      1    2      1.26e9        0.5          5
-    ##  7    1287 Ben-Hur     1959 Actio…      1    2      1.26e9        0.5          5
-    ##  8    1293 Gandhi      1982 Drama       1    2      1.26e9        0.5          5
-    ##  9    1339 Dracula (…  1992 Fanta…      1    3.5    1.26e9        0.5          5
-    ## 10    1343 Cape Fear   1991 Thril…      1    2      1.26e9        0.5          5
+    ##    movie_id title     year genres user_id rating timestamp min_rating max_rating
+    ##       <int> <chr>    <int> <fct>    <int>  <dbl>     <int>      <dbl>      <dbl>
+    ##  1       31 Dangero…  1995 Drama        1    2.5    1.26e9        0.5          5
+    ##  2     1029 Dumbo     1941 Anima…       1    3      1.26e9        0.5          5
+    ##  3     1061 Sleepers  1996 Thril…       1    3      1.26e9        0.5          5
+    ##  4     1129 Escape …  1981 Actio…       1    2      1.26e9        0.5          5
+    ##  5     1172 Cinema …  1989 Drama        1    4      1.26e9        0.5          5
+    ##  6     1263 Deer Hu…  1978 Drama…       1    2      1.26e9        0.5          5
+    ##  7     1287 Ben-Hur   1959 Actio…       1    2      1.26e9        0.5          5
+    ##  8     1293 Gandhi    1982 Drama        1    2      1.26e9        0.5          5
+    ##  9     1339 Dracula…  1992 Fanta…       1    3.5    1.26e9        0.5          5
+    ## 10     1343 Cape Fe…  1991 Thril…       1    2      1.26e9        0.5          5
     ## # ℹ 99,994 more rows
 
 ## Exercise 5: Scoped variants with `across()`
