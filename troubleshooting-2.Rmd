@@ -144,9 +144,13 @@ Using `summarize()`, we can find the minimum and the maximum rating by title, st
 
 ```{r}
 ### ERROR HERE ###
+# Replaced the mutate() function defining the min and max rating (applied to whole data set)
+# Used group_by to group data by movie title, then applied summarize() to define new columns for the min and max rating per movie
+
 movieLens %>%
-  mutate(min_rating = min(rating), 
-         max_rating = max(rating))
+  group_by(title) %>%
+  summarize(min_rating = min(rating), 
+         max_rating = max(rating)) 
 ```
 
 ## Exercise 5: Scoped variants with `across()`
