@@ -95,8 +95,8 @@ As you already know, `mutate()` defines and inserts new variables into a tibble.
 
 ```{r}
 ### ERROR HERE ### 
-# Used the summarise() function instead of mutate()
-summarise(movieLens,
+# Used the transmute() function instead of mutate()
+transmute(movieLens,
        average_rating = mean(rating,na.rm = TRUE))
 ```
 
