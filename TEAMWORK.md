@@ -8,6 +8,7 @@ Each team member will work on their assigned tasks individually. This approach e
 - [x] Contributing to the TEAMWORK.md and implementing suggested changes.
 - [x] Adding 2 markdown features to the README.md.
 - [x] Adding a project description to the README.md.
+- [ ] Completing Exercise 5-6 in troubleshooting-2.Rmd
     
 **@nicolarammell** will be responsible for:
 - [x] Contributing to the TEAMWORK.md. 
@@ -37,7 +38,6 @@ Each team member will work on their assigned tasks individually. This approach e
 - [X] Completing Exercise 2 in troubleshooting-2.Rmd.
 
 **Remaining tasks to assign!:** 
-- [ ] Completing Exercise 5-6 in troubleshooting-2.Rmd.
 - [ ] Creating final troubleshooting-2.md
 - [ ] Submitting Milestone 2 by tagging a release and uploading to Canvas. 
 
